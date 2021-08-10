@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+      </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header>RETRO DRAW</header>
+    <main>
+      <section class="palette">
+      </section>
+      <section class="grid"></section>
+      <section class="controls">
+        <button class="fill-all">FILL ALL CELLS</button>
+        <button class="fill-empty">FILL EMPTY CELLS</button>
+        <button class="clear">CLEAR ALL CELLS</button>
+      </section>
+
+
+      <div>
+        <section>
+
+          <form class="color-form">
+              
+            <div class="color-form-content">
+              <label for="color-content"><strong>New Color!</strong></label>
+              <textarea id="custom-color" cols="30" rows="1"></textarea>
+            </div>
+    
+            <div class="message-form-actions">
+              <button type="button" class="newColorButton">
+                <span>Submit New Color</span>
+              </button>
+            </div>
+          </form>
+
+
+        </section>
+      </div>
+
+
+          <form class="grid-form">
+              
+            <div class="grid-form-content">
+              <label for="grid-content"><strong>New Grid!</strong></label>
+              <textarea id="grid-columns" cols="20" rows="1">columns</textarea>
+              <textarea id="grid-rows" cols="20" rows="1">rows</textarea>
+            </div>
+    
+            <div class="grid-form-actions">
+              <button type="button" class="newGrid">
+                <span>Make New Grid</span>
+              </button>
+
+
+    </main>
+  </body>
+</html>
